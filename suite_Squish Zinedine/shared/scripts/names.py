@@ -1,0 +1,51 @@
+# encoding: UTF-8
+
+from objectmaphelper import *
+
+truckflow_par_Precia_Molen_v_1_35_0_Window = {"text": "Truckflow par Precia Molen v 1.35.0", "type": "Window"}
+truckflow_par_Precia_Molen_v_1_35_0_Connexion_Button = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "Connexion", "type": "Button"}
+licence_requise_Window = {"text": "Licence requise", "type": "Window"}
+licence_requise_Continuer_avec_la_version_d_essai_Button = {"container": licence_requise_Window, "text": "Continuer avec la version d'essai", "type": "Button"}
+truckflow_par_Precia_Molen_v_1_35_0_System_Windows_Controls_Viewbox_ToggleButton = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "occurrence": 2, "text": "System.Windows.Controls.Viewbox", "type": "ToggleButton"}
+truckflow_par_Precia_Molen_v_1_35_0_Badge_TabItem = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "Badge", "type": "TabItem"}
+badge_System_Windows_Controls_Viewbox_Button = {"container": truckflow_par_Precia_Molen_v_1_35_0_Badge_TabItem, "occurrence": 2, "text": "System.Windows.Controls.Viewbox", "type": "Button"}
+badge_Window = {"text": "Badge", "type": "Window"}
+badge_Pesage_TabItem = {"container": badge_Window, "text": "Pesage", "type": "TabItem"}
+pesage_Code_badge_Label = {"container": badge_Pesage_TabItem, "text": "Code badge", "type": "Label"}
+pesage_Code_badge_Edit = {"container": badge_Pesage_TabItem, "leftObject": pesage_Code_badge_Label, "type": "Edit"}
+pesage_Libell_badge_Label = {"container": badge_Pesage_TabItem, "text": "Libellé badge", "type": "Label"}
+pesage_Libell_badge_Edit = {"container": badge_Pesage_TabItem, "leftObject": pesage_Libell_badge_Label, "type": "Edit"}
+pesage_Plaque_Label = {"container": badge_Pesage_TabItem, "text": "Plaque", "type": "Label"}
+pesage_System_Windows_Controls_Viewbox_Button = {"container": badge_Pesage_TabItem, "text": "System.Windows.Controls.Viewbox", "type": "Button"}
+camion_Window = {"text": "Camion", "type": "Window"}
+camion_Plaque_Label = {"container": camion_Window, "text": "Plaque", "type": "Label"}
+camion_Plaque_Edit = {"container": camion_Window, "leftObject": camion_Plaque_Label, "type": "Edit"}
+camion_OK_Button = {"container": camion_Window, "text": "OK", "type": "Button"}
+badge_OK_Button = {"container": badge_Window, "text": "OK", "type": "Button"}
+truckflow_par_Precia_Molen_v_1_35_0_System_Windows_Controls_Viewbox_ToggleButton_2 = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "System.Windows.Controls.Viewbox", "type": "ToggleButton"}
+truckflow_par_Precia_Molen_v_1_35_0_System_Windows_Controls_Viewbox_Button = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "occurrence": 3, "text": "System.Windows.Controls.Viewbox", "type": "Button"}
+truckflow_par_Precia_Molen_v_1_35_0_Code_badge_Label = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "Code badge", "type": "Label"}
+pART_Popup_Popup = {"id": "", "name": "PART_Popup", "type": "Popup"}
+pART_Popup_123_Label = {"container": pART_Popup_Popup, "occurrence": 2, "text": 123, "type": "Label"}
+truckflow_par_Precia_Molen_v_1_35_0_Code_tiers_Label = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "Code tiers", "type": "Label"}
+truckflow_par_Precia_Molen_v_1_35_0_System_Windows_Controls_Viewbox_Button_2 = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "occurrence": 12, "text": "System.Windows.Controls.Viewbox", "type": "Button"}
+tiers_Window = {"text": "Tiers", "type": "Window"}
+tiers_Code_tiers_Label = {"container": tiers_Window, "text": "Code tiers", "type": "Label"}
+tiers_Code_tiers_Edit = {"container": tiers_Window, "leftObject": tiers_Code_tiers_Label, "type": "Edit"}
+tiers_Libell_tiers_Label = {"container": tiers_Window, "text": "Libellé tiers", "type": "Label"}
+tiers_Libell_tiers_Edit = {"container": tiers_Window, "leftObject": tiers_Libell_tiers_Label, "type": "Edit"}
+tiers_OK_Button = {"container": tiers_Window, "text": "OK", "type": "Button"}
+truckflow_par_Precia_Molen_v_1_35_0_Code_produit_Label = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "Code produit", "type": "Label"}
+truckflow_par_Precia_Molen_v_1_35_0_System_Windows_Controls_Viewbox_Button_3 = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "occurrence": 20, "text": "System.Windows.Controls.Viewbox", "type": "Button"}
+produit_Window = {"text": "Produit", "type": "Window"}
+produit_Code_produit_Label = {"container": produit_Window, "text": "Code produit", "type": "Label"}
+produit_Code_produit_Edit = {"container": produit_Window, "leftObject": produit_Code_produit_Label, "type": "Edit"}
+produit_Edit = {"container": produit_Window, "occurrence": 12, "type": "Edit"}
+produit_OK_Button = {"container": produit_Window, "text": "OK", "type": "Button"}
+truckflow_par_Precia_Molen_v_1_35_0_Quantit_Label = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "Quantité", "type": "Label"}
+truckflow_par_Precia_Molen_v_1_35_0_Quantit_ComboBox = {"aboveObject": truckflow_par_Precia_Molen_v_1_35_0_Quantit_Label, "container": truckflow_par_Precia_Molen_v_1_35_0_Window, "type": "ComboBox"}
+truckflow_par_Precia_Molen_v_1_35_0_Edit = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "occurrence": 49, "type": "Edit"}
+truckflow_par_Precia_Molen_v_1_35_0_WPFControl = {"class": "PM.TruckFlow.Clients.OperatorStation.Views.Weighing.StandardWeighingView", "container": truckflow_par_Precia_Molen_v_1_35_0_Window, "type": "WPFControl"}
+truckflow_par_Precia_Molen_v_1_35_0_Exp_dition_ToggleButton = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "Expédition", "type": "ToggleButton"}
+truckflow_par_Precia_Molen_v_1_35_0_Capturer_Button = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "text": "Capturer", "type": "Button"}
+truckflow_par_Precia_Molen_v_1_35_0_System_Windows_Controls_Viewbox_Button_4 = {"container": truckflow_par_Precia_Molen_v_1_35_0_Window, "occurrence": 5, "text": "System.Windows.Controls.Viewbox", "type": "Button"}
